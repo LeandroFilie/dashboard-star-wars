@@ -13,6 +13,11 @@ body {
   display: flex;
 }
 
+main {
+  width: 100%;
+  padding: 5rem;
+}
+
 ul {
   list-style: none;
 }
@@ -94,5 +99,110 @@ ul {
   gap: 0.5rem;
   color: #fff;
   font-weight: bold;
+}
+
+.cards-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10rem;
+}
+
+.cards-first .card {
+  background: #fff;
+  border-radius: 16px;
+  -webkit-box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+}
+
+.cards-first .card.duble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+}
+
+.cards-first .card.duble .divider {
+  height: 5rem;
+  width: 1px;
+  background: #000;
+}
+
+.cards-first .card .card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2rem;
+}
+
+.cards-first .card .card-content p {
+  font-weight: bold;
+}
+
+.cards-first .card .card-content h2 {
+  font-size: 54px;
+  color: #FFBA33;
+}
+
+.cards-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.cards-second .card {
+  background: #fff;
+  border-radius: 16px;
+  -webkit-box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+}
+
+.cards-second .card h3, .cards-second .card p {
+  margin: 0.5rem;
+}
+
+.cards-second .card p {
+  color: #5E5E5E;
+}
+
+table {
+  border-spacing: 0;
+  color: #5E5E5E;
+}
+
+table th, table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table th {
+  border-bottom: 1px solid #5E5E5E;
+}
+
+table td {
+  border-bottom: 1px solid #E9E9E9;
 }
 /*# sourceMappingURL=style.css.map */
