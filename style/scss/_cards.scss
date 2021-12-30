@@ -1,4 +1,4 @@
-.cards-first{
+.cards{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,7 +42,7 @@
 
 }
 
-.cards-second{
+.cards-table{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,6 +56,14 @@
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
     padding: 2rem;
 
+    &.grapich{
+      padding: 0.5rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     h3, p{
       margin: 0.5rem;
     }
@@ -65,23 +73,3 @@
     }
   }
 }
-
-table{
-  border-spacing: 0;
-  color: $text-color;
-
-  th, td {
-    padding: 0.75rem 1rem;
-    text-align: left;
-    border-collapse: collapse;
-  }
-
-  th{
-    border-bottom: 1px solid $text-color;
-  }
-
-  td{
-    border-bottom: 1px solid $border-color;
-  }
-}
-
