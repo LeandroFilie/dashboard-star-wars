@@ -3,7 +3,7 @@
 <p align="center">
   <a href="#o-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#desktop-behavior">Behavior</a>
+  <a href="#behavior">Behavior</a>
 </p>
 
 ## O Projeto
@@ -26,9 +26,9 @@ Integrações
  - [The Star Wars API](https://swapi.dev/)
  - [Google Charts](https://developers.google.com/chart)
 
-## Desktop Behavior
+## Behavior
 <p align="center">
-	<img src='.github/gif-desktop.gif' height="400px">
+	<img src='.github/behavior-gif.gif' height="400px">
 </p>
 
 ---
