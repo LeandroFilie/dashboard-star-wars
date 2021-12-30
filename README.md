@@ -41,7 +41,7 @@ $ git clone https://github.com/LeandroFilie/Dashboard-StarWars.git
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd Dashboard-StarWars
 ```
-Para acesso de forma online, acesse: [https://dashboard-star-wars-leandrofilie.vercel.app/](https://dashboard-star-wars-leandrofilie.vercel.app/)
+Para acesso de forma online, [clique aqui](https://dashboard-star-wars-leandrofilie.vercel.app/)
 
 ---
 Feito com :heart: by [Leandro Filié](https://github.com/LeandroFilie)
