@@ -1,4 +1,4 @@
-# Dashboard-StarWars
+# Dashboard Star Wars
 
 <p align="center">
   <a href="#o-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
